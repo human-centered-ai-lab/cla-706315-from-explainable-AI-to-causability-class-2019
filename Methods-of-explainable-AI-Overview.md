@@ -7,27 +7,25 @@ Methods for ex-AI: Examples on GitHub
 https://fatconference.org/static/tutorials/hall_interpretable18.pdf
 
 •	Machine Learning Interpretability (MLI) 
-collection of materials illustrating applications and adaptations of the techniques for interpreting complex machine-learning models for practicing data scientists  
+collection of materials illustrating applications and adaptations of the techniques for interpreting complex machine-learning models for practicing data scientists https://github.com/h2oai/mli-resources#dockerfile
 
-https://github.com/h2oai/mli-resources#dockerfile
-•	
-#	2 Gradients
+###	2 Gradients
 •	Grad-CAM++:
 Generalized Gradient-based Visual Explanations for Deep Convolutional Networks
 https://github.com/adityac94/Grad_CAM_plus_plus
 •	Monotonic Gradient Boosting using XGBoost
 Monotonicity is an important facet of intepretability - monotonic relationships are usually easier to explain and understand than non-monotonic relationships. 
 https://github.com/h2oai/mli-resources/blob/master/notebooks/mono_xgboost.ipynb
-•	
-# 3	Sensitivity Analysis
+	
+### 3	Sensitivity Analysis
 •	Introduction to Sensitivity Analysis – investigate whether the model behaviour and output remain stable when input is intentionally perturbed
 https://github.com/h2oai/mli-resources/blob/master/notebooks/sensitivity_analysis.ipynb
-•	
-# 4	Decomposition Relevance Propagation (Pixel-RP, Layer-RP, Deep Taylor Decomposition…)
+
+### 4	Decomposition Relevance Propagation (Pixel-RP, Layer-RP, Deep Taylor Decomposition…)
 •	TreeInterpreter package for interpreting scikit-learn’s decision tree and random forest preditions
 https://github.com/andosa/treeinterpreter
-•	
-# 5	Optimization (LIME model agnostic, BETA transparent approximation…)
+
+### 5	Optimization (LIME model agnostic, BETA transparent approximation…)
 •	Lime For Time:
 application of the LIME algorithm to time series classification. The goal is to explain time series classification algorithms by highlighting the areas of the timeseries used by the classifier in its prediction.
 https://github.com/emanuel-metzenthin/Lime-For-Time
@@ -38,16 +36,16 @@ https://github.com/h2oai/mli-resources/blob/master/notebooks/lime.ipynb
 https://github.com/marcotcr/lime
 •	ELI5 – a Python package which helps to debug machine learning classifiers and explain their predictions
 https://github.com/TeamHG-Memex/eli5
-•	
-# 6	Deconvolution and Guided Backpropagation
+	
+### 6	Deconvolution and Guided Backpropagation
 •	Contrastive Excitation Backpropagation
 to visualize what causes a given neuron to fire
 https://github.com/greydanus/excitationbp
-•	
-# 7	Model Understanding (Feature visualisation, Inverting CNN; Qualitative Testing with Concept Activation Vectors TCAV; Network Dissection)
+	
+### 7	Model Understanding (Feature visualisation, Inverting CNN; Qualitative Testing with Concept Activation Vectors TCAV; Network Dissection)
 
 
-# 8	Other Methods
+### 8	Other Methods
 •	Anchors explanation algorithm for machine learning models that uses rules to explain machine learning preditions
 https://github.com/viadee/javaAnchorExplainer
 https://github.com/viadee/xai_examples
