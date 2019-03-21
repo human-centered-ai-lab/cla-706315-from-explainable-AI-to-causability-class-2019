@@ -7,7 +7,8 @@ Methods for ex-AI: Examples on GitHub
 https://fatconference.org/static/tutorials/hall_interpretable18.pdf
 
 •	Machine Learning Interpretability (MLI) 
-collection of materials illustrating applications and adaptations of the techniques for interpreting complex machine-learning models for practicing data scientists
+collection of materials illustrating applications and adaptations of the techniques for interpreting complex machine-learning models for practicing data scientists  
+
 https://github.com/h2oai/mli-resources#dockerfile
 •	
 #	2 Gradients
