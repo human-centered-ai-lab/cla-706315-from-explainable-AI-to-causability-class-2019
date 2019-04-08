@@ -18,6 +18,11 @@ https://github.com/adityac94/Grad_CAM_plus_plus
 •	Monotonic Gradient Boosting using XGBoost
 Monotonicity is an important facet of intepretability - monotonic relationships are usually easier to explain and understand than non-monotonic relationships. 
 https://github.com/h2oai/mli-resources/blob/master/notebooks/mono_xgboost.ipynb
+
+Julius Adebayo, Justin Gilmer, Michael Muelly, Ian Goodfellow, Moritz Hardt & Been Kim. Sanity checks for saliency maps. In: Bengio, Samy, Walach, Hanna, Larochelle, Hugo, Grauman, Kristen, Cesa-Bianchi, Nicolo & Garnett, Roman, eds. Advances in Neural Information Processing Systems 31, 2018 Montreal. 9505-9515.
+https://github.com/adebayoj/sanity_checks_saliency  
+
+
 	
 ### 2	Sensitivity Analysis
 •	Introduction to Sensitivity Analysis – investigate whether the model behaviour and output remain stable when input is intentionally perturbed
