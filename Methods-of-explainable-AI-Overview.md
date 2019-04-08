@@ -50,11 +50,11 @@ https://github.com/greydanus/excitationbp
 ### 7	Other Methods
 •	Anchors explanation algorithm for machine learning models that uses rules to explain machine learning preditions
 
-https://github.com/viadee/javaAnchorExplainer
-https://github.com/viadee/xai_examples
-https://github.com/viadee/javaAnchorServer
-Paper: Anchors: High-Precision Model-Agnostic Explanations
-https://homes.cs.washington.edu/~marcotcr/aaai18.pdf
+https://github.com/viadee/javaAnchorExplainer  
+https://github.com/viadee/xai_examples  
+https://github.com/viadee/javaAnchorServer  
+Paper: Anchors: High-Precision Model-Agnostic Explanations  
+https://homes.cs.washington.edu/~marcotcr/aaai18.pdf  
 
 •	MEGA Multi-model Explanation Generation Algorithm
 Paper: Balancing Explicability and Explanations – Emergent Behaviours in Human-Aware Planning 
