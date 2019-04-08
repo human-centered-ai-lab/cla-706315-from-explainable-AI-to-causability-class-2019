@@ -44,7 +44,12 @@ https://github.com/TeamHG-Memex/eli5
 to visualize what causes a given neuron to fire
 https://github.com/greydanus/excitationbp
 	
-### 6	Model Understanding (Feature visualisation, Inverting CNN; Qualitative Testing with Concept Activation Vectors TCAV; Network Dissection)
+### 6	Model Understanding
+
+(Feature visualisation, Inverting CNN; Qualitative Testing with Concept Activation Vectors TCAV; Network Dissection)
+
+## Concept Activation Vectors (CAV)
+
 
 
 ### 7	Other Methods
