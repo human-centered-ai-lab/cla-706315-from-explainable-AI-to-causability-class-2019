@@ -10,9 +10,11 @@ https://fatconference.org/static/tutorials/hall_interpretable18.pdf
 collection of materials illustrating applications and adaptations of the techniques for interpreting complex machine-learning models for practicing data scientists https://github.com/h2oai/mli-resources#dockerfile
 
 ###	1 Gradients
+
 •	Grad-CAM++:
 Generalized Gradient-based Visual Explanations for Deep Convolutional Networks
 https://github.com/adityac94/Grad_CAM_plus_plus
+
 •	Monotonic Gradient Boosting using XGBoost
 Monotonicity is an important facet of intepretability - monotonic relationships are usually easier to explain and understand than non-monotonic relationships. 
 https://github.com/h2oai/mli-resources/blob/master/notebooks/mono_xgboost.ipynb
@@ -47,11 +49,13 @@ https://github.com/greydanus/excitationbp
 
 ### 7	Other Methods
 •	Anchors explanation algorithm for machine learning models that uses rules to explain machine learning preditions
+
 https://github.com/viadee/javaAnchorExplainer
 https://github.com/viadee/xai_examples
 https://github.com/viadee/javaAnchorServer
 Paper: Anchors: High-Precision Model-Agnostic Explanations
 https://homes.cs.washington.edu/~marcotcr/aaai18.pdf
+
 •	MEGA Multi-model Explanation Generation Algorithm
 Paper: Balancing Explicability and Explanations – Emergent Behaviours in Human-Aware Planning 
 https://arxiv.org/pdf/1708.00543.pdf ; https://www.aaai.org/ocs/index.php/FSS/FSS17/paper/viewFile/16030/15288 
