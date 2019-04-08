@@ -23,7 +23,6 @@ Julius Adebayo, Justin Gilmer, Michael Muelly, Ian Goodfellow, Moritz Hardt & Be
 https://github.com/adebayoj/sanity_checks_saliency  
 
 
-	
 ### 2	Sensitivity Analysis
 •	Introduction to Sensitivity Analysis – investigate whether the model behaviour and output remain stable when input is intentionally perturbed
 https://github.com/h2oai/mli-resources/blob/master/notebooks/sensitivity_analysis.ipynb
