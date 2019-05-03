@@ -28,3 +28,8 @@ Dieser Kurs ist eine Erweiterung der in den letzten Jahren von Andreas Holzinger
 Zum human-in-the-loop proof-of-concept siehe:
 
 https://github.com/human-centered-ai-lab/app-interactive-machine-learning/wiki/Home
+
+and to the human-in-the-loop project page:
+
+https://human-centered.ai/project/iml/
+
