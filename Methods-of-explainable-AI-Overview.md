@@ -53,6 +53,9 @@ https://github.com/greydanus/excitationbp
 (Feature visualisation, Inverting CNN; Qualitative Testing with Concept Activation Vectors TCAV; Network Dissection)
 
 
+- Generating Visual Explanations
+https://github.com/LisaAnne/ECCV2016
+
 
 #### Concept Activation Vectors (CAV)
 
