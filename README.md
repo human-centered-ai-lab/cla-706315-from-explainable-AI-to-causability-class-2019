@@ -13,7 +13,7 @@ TARGET group of this course:
 
 Research students of  Computer Science particularly of the Holzinger group.
 
-(1) note that black-box is a not well defined term, and is not to be confused with the flight recorder (which actually is by no means a "black box")
+(1) note that black-box is a not well defined term, and is not to be confused with the flight recorder (which actually is by no means a "black box"); on the other hand from electrical engineering we know the term "white box", which is also not a good term. Really appropriate is the term "glass box" where a human can have a full visibility of the inside behaviour - which does of course not necessarily mean that this is also understandable. Transparency is necessary but not sufficient for understandability. 
 
 
 Von interpretierbarer KI zur Causability
