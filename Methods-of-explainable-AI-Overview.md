@@ -31,6 +31,11 @@ https://github.com/h2oai/mli-resources/blob/master/notebooks/sensitivity_analysi
 •	TreeInterpreter package for interpreting scikit-learn’s decision tree and random forest preditions
 https://github.com/andosa/treeinterpreter
 
+LRP:
+https://github.com/albermax/innvestigate
+
+
+
 ### 4	Optimization (LIME model agnostic, BETA transparent approximation…)
 •	Lime For Time:
 application of the LIME algorithm to time series classification. The goal is to explain time series classification algorithms by highlighting the areas of the timeseries used by the classifier in its prediction.
