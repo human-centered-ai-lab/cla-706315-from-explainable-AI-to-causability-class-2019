@@ -1,95 +1,121 @@
 
+Similar courses, github repos:
+- https://github.com/BoulderDS/human-centered-machine-learning
+- https://canvas.harvard.edu/courses/68154
+- https://github.com/anguyen8/XAI-papers
 
 Methods for ex-AI: Examples on GitHub
 
-###	0 General Introduction / Overview
-•	Paper: Practical Techniques for Interpreting Machine Learning Models: Introductory Open Source Examples Using Python, H2O, and XGBoost
-https://fatconference.org/static/tutorials/hall_interpretable18.pdf
+### Module 4 ###
 
-•	Machine Learning Interpretability (MLI) 
-collection of materials illustrating applications and adaptations of the techniques for interpreting complex machine-learning models for practicing data scientists https://github.com/h2oai/mli-resources#dockerfile
+# 4.1. GAM
 
-###	1 Gradients
+- https://pygam.readthedocs.io/en/latest/#
+- https://www.statsmodels.org/dev/gam.html
+- (Interessanter Blogpost: https://multithreaded.stitchfix.com/blog/2015/07/30/gam/)
+- https://github.com/interpretml/interpret
 
-•	Grad-CAM++:
-Generalized Gradient-based Visual Explanations for Deep Convolutional Networks
-https://github.com/adityac94/Grad_CAM_plus_plus
+# 4.2. S-AOG
 
-•	Monotonic Gradient Boosting using XGBoost
-Monotonicity is an important facet of intepretability - monotonic relationships are usually easier to explain and understand than non-monotonic relationships. 
-https://github.com/h2oai/mli-resources/blob/master/notebooks/mono_xgboost.ipynb
+- No implementation found
 
-Julius Adebayo, Justin Gilmer, Michael Muelly, Ian Goodfellow, Moritz Hardt & Been Kim. Sanity checks for saliency maps. In: Bengio, Samy, Walach, Hanna, Larochelle, Hugo, Grauman, Kristen, Cesa-Bianchi, Nicolo & Garnett, Roman, eds. Advances in Neural Information Processing Systems 31, 2018 Montreal. 9505-9515.
-https://github.com/adebayoj/sanity_checks_saliency  
+### Module 5 ###
+
+# 5.1. LIME
+
+Marco Tulio Ribeiro, author of: https://arxiv.org/pdf/1602.04938.pdf?mod=article_inline
+- https://github.com/marcotcr/lime
+- https://github.com/marcotcr/lime-experiments
+
+# 5.2. BETA
+
+- No implementation found
+
+# 5.3. LRP
+
+- https://github.com/albermax/innvestigate
+
+# 5.4. Deep Taylor Decomposition
+
+- https://github.com/albermax/innvestigate
+
+# 5.5. Prediction Difference Analysis
+
+- https://github.com/lmzintgraf/DeepVis-PredDiff
+
+### Module 6 ###
+
+# 6.1. Viz CNNs with Deconvolution
+
+- https://machinelearningmastery.com/upsampling-and-transpose-convolution-layers-for-generative-adversarial-networks/
+
+# 6.2. Inverting CNNs
+
+- https://github.com/utkuozbulak/pytorch-cnn-visualizations
+
+# 6.3. Guided Backpropagation
+
+- https://github.com/utkuozbulak/pytorch-cnn-visualizations
+
+# 6.4. Deep Generator Networks
+
+- https://github.com/Evolving-AI-Lab/synthesizing
+
+# 6.5. TCAV
+
+- https://github.com/tensorflow/tcav
+
+### Module 7 ###
+
+# 7.1. Feature Visualization
+
+- 
+
+# 7.2. Deep Visualization
+
+- https://github.com/yosinski/deep-visualization-toolbox
+
+# 7.3. Recursive Neural Networks cell state analysis
+
+- https://github.com/karpathy/char-rnn
+
+# 7.4. Fitted Additive
+
+- http://www.cs.cornell.edu/~yinlou/projects/gam/ (Java)
+- Blog: https://blog.fiddler.ai/2019/06/a-gentle-introduction-to-ga2ms-a-white-box-model/
+
+# 7.5. Interactive ML with human-in-the-loop
+
+### Module 8 ###
+
+# 8.1. Sensitivity Analysis I
+
+- https://salib.readthedocs.io/en/latest/ (hilfreich?)
+
+# 8.2. Sensitivity Analysis II
+
+- https://github.com/saketd403/Visualising-Image-Classification-Models-and-Saliency-Maps 
+(The developer is not the researcher from the paper; this is just a personal repository, 
+not a software library)
+
+# 8.4. Gradients II: DeepLIFT
+
+- https://github.com/kundajelab/deeplift
+
+# 8.5. Gradients III: Grad-CAM 
+
+- https://github.com/ramprs/grad-cam (repository of researcher)
+
+(repository from another person)
+- https://github.com/jacobgil/keras-grad-cam
+- https://github.com/jacobgil/pytorch-grad-cam
+
+- https://github.com/adityac94/Grad_CAM_plus_plus (GradCAM++)
+
+# 8.6. Gradients IV: Integrated Gradient 
+
+- https://github.com/ankurtaly/Integrated-Gradients (author of paper included)
+
+- https://github.com/hiranumn/IntegratedGradients (personal repo)
 
 
-### 2	Sensitivity Analysis
-•	Introduction to Sensitivity Analysis – investigate whether the model behaviour and output remain stable when input is intentionally perturbed
-https://github.com/h2oai/mli-resources/blob/master/notebooks/sensitivity_analysis.ipynb
-
-### 3	Decomposition Relevance Propagation (Pixel-RP, Layer-RP, Deep Taylor Decomposition…)
-•	TreeInterpreter package for interpreting scikit-learn’s decision tree and random forest preditions
-https://github.com/andosa/treeinterpreter
-
-LRP:
-https://github.com/albermax/innvestigate
-
-
-
-### 4	Optimization (LIME model agnostic, BETA transparent approximation…)
-•	Lime For Time:
-application of the LIME algorithm to time series classification. The goal is to explain time series classification algorithms by highlighting the areas of the timeseries used by the classifier in its prediction.
-https://github.com/emanuel-metzenthin/Lime-For-Time
-•	LIME variant
-Instead of perturbing a sample of interest to create a local region in which to fit a linear model, these examples use a practical sample, say all one story homes, from the data to create an approximately local region in which to fit a linear model.
-https://github.com/h2oai/mli-resources/blob/master/notebooks/lime.ipynb
-•	Original LIME approach
-https://github.com/marcotcr/lime
-•	ELI5 – a Python package which helps to debug machine learning classifiers and explain their predictions
-https://github.com/TeamHG-Memex/eli5
-	
-### 5	Deconvolution and Guided Backpropagation
-•	Contrastive Excitation Backpropagation
-to visualize what causes a given neuron to fire
-https://github.com/greydanus/excitationbp
-	
-### 6	Model Understanding
-
-(Feature visualisation, Inverting CNN; Qualitative Testing with Concept Activation Vectors TCAV; Network Dissection)
-
-
-- Generating Visual Explanations
-https://github.com/LisaAnne/ECCV2016
-
-
-#### Concept Activation Vectors (CAV)
-
-https://github.com/MotJuMi/TCAV
-
-
-### 7	Other Methods
-•	Anchors explanation algorithm for machine learning models that uses rules to explain machine learning preditions
-
-https://github.com/viadee/javaAnchorExplainer  
-
-https://github.com/vacancy/NSCL-PyTorch-Release
-
-https://github.com/viadee/xai_examples  
-https://github.com/viadee/javaAnchorServer  
-Paper: Anchors: High-Precision Model-Agnostic Explanations  
-https://homes.cs.washington.edu/~marcotcr/aaai18.pdf  
-
-•	MEGA Multi-model Explanation Generation Algorithm
-Paper: Balancing Explicability and Explanations – Emergent Behaviours in Human-Aware Planning 
-https://arxiv.org/pdf/1708.00543.pdf ; https://www.aaai.org/ocs/index.php/FSS/FSS17/paper/viewFile/16030/15288 
-http://ifaamas.org/Proceedings/aamas2018/pdfs/p2180.pdf
-Explanations in Multi-Model Planning
-https://github.com/TathagataChakraborti/mmp
-•	Partial Dependence and ICE Plots:
-Paper: Peeking inside the black box: Visualizing statistical learning with plots of individual conditional expectation. https://arxiv.org/pdf/1309.6392.pdf 
-https://github.com/h2oai/mli-resources/blob/master/notebooks/pdp_ice.ipynb
-•	LOCO (leave one covariance out)Technique to calculate the local contribution each input variable makes toward each model prediction
-https://github.com/h2oai/mli-resources/blob/master/notebooks/loco.ipynb
-•	SHAP (Shapley Additive exPlanations) a unified approach to explain the output of any machine learning model; SHAP connects game theory with local explanations and several previous methods
-https://github.com/slundberg/shap
-•	
