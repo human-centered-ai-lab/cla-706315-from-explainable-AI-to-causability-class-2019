@@ -67,17 +67,12 @@ https://github.com/LisaAnne/ECCV2016
 https://github.com/MotJuMi/TCAV
 
 
-
-
 ### 7	Other Methods
 •	Anchors explanation algorithm for machine learning models that uses rules to explain machine learning preditions
 
 https://github.com/viadee/javaAnchorExplainer  
 
-
 https://github.com/vacancy/NSCL-PyTorch-Release
-
-
 
 https://github.com/viadee/xai_examples  
 https://github.com/viadee/javaAnchorServer  
