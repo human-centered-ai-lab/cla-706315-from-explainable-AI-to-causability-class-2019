@@ -1,15 +1,19 @@
 
 
+Course Homepage:
+https://human-centered.ai/explainable-ai-causability-2019/
+
+
 Methods for ex-AI: Examples on GitHub
 
-###	0 General Introduction / Overview
+### 0	General Introduction / Overview
 •	Paper: Practical Techniques for Interpreting Machine Learning Models: Introductory Open Source Examples Using Python, H2O, and XGBoost
 https://fatconference.org/static/tutorials/hall_interpretable18.pdf
 
 •	Machine Learning Interpretability (MLI) 
 collection of materials illustrating applications and adaptations of the techniques for interpreting complex machine-learning models for practicing data scientists https://github.com/h2oai/mli-resources#dockerfile
 
-###	1 Gradients
+### 1	Gradients
 
 •	Grad-CAM++:
 Generalized Gradient-based Visual Explanations for Deep Convolutional Networks
@@ -56,7 +60,6 @@ https://github.com/greydanus/excitationbp
 ### 6	Model Understanding
 
 (Feature visualisation, Inverting CNN; Qualitative Testing with Concept Activation Vectors TCAV; Network Dissection)
-
 
 - Generating Visual Explanations
 https://github.com/LisaAnne/ECCV2016
